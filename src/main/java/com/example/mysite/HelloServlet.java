@@ -24,8 +24,8 @@ public class HelloServlet extends HttpServlet {
 
         // Hello
         PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>" + "the greatest common divisor is " + result + "</h1>");
+        out.println("<html><head><title>GCD Result!</title></head><body>");
+        out.println("<h1>" + name + " the greatest common divisor is " + result + "</h1>");
         out.println("</body></html>");
     }
 
